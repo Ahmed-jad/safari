@@ -2,7 +2,7 @@
 body {
   background-color: #f3f7d0;
   line-height: 1.7;
-  color: #4d4d4d;
+  color: #000000;
   font-weight: 300;
   font-size: 1rem; }
 
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5,
   font-size: 2.5rem; }
   @media (min-width: 768px) {
     .site-section-heading {
-      font-size: 4rem; } }
+      font-size: 4rem; }  }
   .site-section-heading:after {
     content: "";
     left: 0%;
@@ -348,6 +348,7 @@ h1, h2, h3, h4, h5,
     font-size: 20px;
     margin: 8px;
   }
+  #remove{display: none;}
 }
 
  
@@ -993,7 +994,7 @@ h1, h2, h3, h4, h5,
     transform: scale(1.05); }
 
 .overlap-section {
-  margin-top: -150px;
+ 
   position: relative;
   z-index: 9; }
 
@@ -1053,3 +1054,8 @@ th, td {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+
+
+
+
